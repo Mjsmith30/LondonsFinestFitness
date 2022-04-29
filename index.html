@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
     <title>Londons Finest Fitness</title>
   </head>
   <body>
@@ -43,5 +44,16 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
+    <script>
+        var menuToggle = document.querySelector('.toggle');
+        var showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () =>{
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+})
+
+
+    </script>
   </body>
 </html>
